@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.255 s <<< FAILURE! - in TestSuite
+SeleniumJava.AutomationPractice.SearchFlights.searchFlights  Time elapsed: 0.26 s  <<< FAILURE!
+java.lang.NullPointerException
+	at SeleniumJava.AutomationPractice.SearchFlights.searchFlights(SearchFlights.java:33)
+
