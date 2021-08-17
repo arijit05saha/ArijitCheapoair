@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="SeleniumJava.AutomationPractice.AppTest"/>
-      <class name="SeleniumJava.AutomationPractice.SearchFlights"/>
+      <class name="SeleniumJava.Cheapoair.AppTest"/>
+      <class name="SeleniumJava.Cheapoair.SearchFlights"/>
+      <class name="SeleniumJava.Cheapoair.ValidateLogo"/>
+      <class name="SeleniumJava.Cheapoair.Trial"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
