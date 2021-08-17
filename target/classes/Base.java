@@ -24,7 +24,8 @@ public class Base {
 		FileInputStream fis = new FileInputStream(resourcesPath + "\\data.properties");
 		prop.load(fis);
 		
-		String browser = prop.getProperty("browser");
+		//String browser = prop.getProperty("browser");
+		String browser = System.getProperty("browser");
 		String url = prop.getProperty("url");
 		
 		if (browser.toLowerCase().contains("chrome")) {
